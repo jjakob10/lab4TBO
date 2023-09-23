@@ -38,7 +38,6 @@ void merge_sort(Item *a, Item *aux, int lo, int hi)
     int mid = lo + (hi - lo) / 2;
     merge_sort(a, aux, lo, mid);
     merge_sort(a, aux, mid + 1, hi);
-    if (!less(a[mid+1], a[mid])) return;
     merge(a, aux, lo, mid, hi);
 }
 void sort(Item *a, int lo, int hi)
