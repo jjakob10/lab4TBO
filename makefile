@@ -1,6 +1,3 @@
-all:
-	gcc -Wall -g -o main *.c
-
 m1:
 	gcc -Wall -g -o main item.c merge_sort.c main.c
 
