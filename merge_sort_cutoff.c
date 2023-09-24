@@ -1,6 +1,6 @@
 #include "item.h"
 #include "sort.h"
-#define CUTOFF 10
+#define CUTOFF 3
 
 void insert_sort(Item *a, int lo, int hi)
 {
